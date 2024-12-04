@@ -1,2 +1,3 @@
-The approach to solving the problem of getting student's usernames and passwords to access
-Texas State
+In order to impliment a way to access student's usernames and passwords, we used a Hash table to
+store and access this information. With the encryption and random accesing of a hash table, we are
+able to safetly store these passwords RAMBLE ON... 
