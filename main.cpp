@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// Precondition: studentTable must be of type HashTable and be properly initialized
+// Postcondition: function allows writing to and displaying studentTable, along with logging out, effectively breaking the loop
 void adminDashboard(HashTable &studentTable) {
   while (true) {
     cout << "\n--- Admin Dashboard ---\n";
@@ -32,6 +34,8 @@ void adminDashboard(HashTable &studentTable) {
   }
 }
 
+// Precondition: studentTable must be of type HashTable and be properly initialized
+// Postcondition: function allows for log in and error handling
 void studentLogin(HashTable &studentTable) {
   string username, password;
   cout << "\n--- Student Login ---\n";
